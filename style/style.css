@@ -1,0 +1,636 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'DaysOne';
+    src: url(../fonts/DaysOne-Regular.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto !important;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.section-shapka .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-shapka{
+    height: 40px;
+}
+.section-shapka .container .txt a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: .5s;
+    font-family: 'Montserrat';
+    font-weight: 700;
+
+}
+.section-shapka .container .txt a:hover{
+    color: #4C7D48;
+    transition: .5s;
+}
+.section-shapka .container .txt{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.section-shapka .container .logo img{
+    width: 100px;
+    margin-top: 5px;
+}
+.section-gos .container .img img{
+    width: 100%;
+}
+.section-shapka{
+    margin-bottom: 100px;
+}
+.section-gos{
+    margin-bottom: 100px;
+}
+
+
+.slider{
+    margin-bottom: 5%;
+}
+
+.slider .container img{
+    filter: brightness(50%);
+    background-size: cover;
+}
+
+.slider .container .carousel-caption h5{
+    font-size: 36px;
+
+}
+
+.slider .container .carousel-caption p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+
+.section-news .container h2{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 700;
+}
+.section-news .container .txt{
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-news .container p{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.section-news .container .car{
+    display: flex;
+    margin-bottom: 40px;
+}
+.section-news .container .car .card{
+    width: 370px;
+    margin-right: 40px;
+}
+.section-news .container .car .card h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.section-news .container .car .card p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    margin-top: 0;
+}
+.section-news .container .car .card .line{
+    height: 2px;
+    background-color: #000;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-news .container .car .card{
+    border: #000 3px solid;
+    border-radius: 20px;
+}
+.section-news{
+    margin-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4C7D48;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+footer h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.section-contact .container h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-contact .container h3{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+}
+.section-contact .container .cont h4{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 600;
+}
+.section-contact .container .cont p{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.section-contact .container .cont .line{
+    height: 3px;
+    background-color: #4C7D48;
+}
+.section-contact {
+    margin-bottom: 100px;
+}
+
+.section-ruc .container h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-ruc .container .card .txt h3{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    margin: 20px;
+}
+
+.section-ruc .container .card .txt .text p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.section-ruc .container .card .txt .text{
+    margin-bottom: 40px;
+    margin: 20px;
+}
+.section-ruc .container .card{
+    display: flex;
+}
+.section-ruc .container .card .img img{
+    width: 350px;
+    margin: 20px;
+}
+.section-ruc .container .card{
+    border: #000 3px solid;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: .5s;
+}
+.section-ruc .container .card:hover{
+    background-color: #e5f3e4;
+    transition: .5s;
+}
+.section-ruc{
+    margin-bottom: 100px;
+}
+.section-prav .container h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-prav .container .car h3{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 600;
+}
+.section-prav .container .car p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner {
+    border: 3px solid #4C7D48;
+    width: 728px;
+    
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+}
+
+.banner .mar{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .mar marquee{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.banner svg {
+    right: 0;
+    fill: #4C7D48;
+    width: 100px;
+    height: 100px;
+}
+
+.banner .logo{
+    width: 28%;
+    display: flex;
+    fill: #4C7D48;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.banner .text{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #4C7D48;
+    margin-left: 13%;
+    font-family: 'Montserrat';
+}
+
+.banner .text h5{
+    font-size: 16px;
+    margin: 0;
+}
+
+.nuj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+.section-prav .container .but a{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4C7D48;
+    
+}
+.section-prav .container .but{
+    display: flex;
+    justify-content: center;
+}
+.section-prav{
+    margin-bottom: 100px;
+}
+
+.section-obr .container .nametel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.section-obr .container .nametel h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.section-obr .container .nametel input{
+    width: 300px;
+    height: 40px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+    
+}
+.section-obr{
+    margin-bottom: 100px;
+}
+.section-obr .container h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-obr .container button{
+    width: 210px;
+    height: 60px;
+    color: #ffff;
+    background-color: #4C7D48;
+    border: 4px, solid, #4C7D48;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'DaysOne';
+    margin-top: 20px;
+    transition: .5s;
+}
+.section-obr .container button:hover{
+    background-color: #ffff;
+    color: #4C7D48;
+    border: 4px, solid, #4C7D48;
+    transition: .5s;
+}
+.section-obr .container h3{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 600;
+}
+.section-obr .container p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-obr .container .em h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.section-obr .container .em input{
+    width: 100%;
+    height: 100px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .section-shapka .container .logo img{
+        margin-left: 100px;
+    }
+    .section-shapka .container .txt a{
+        font-size: 16px;
+    }
+    footer h3{
+        font-size: 16px;
+    }
+    .slider .container .carousel-caption h5{
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .container{
+        width: 320px;
+    }
+    .section-shapka .container .txt a{
+        font-size: 10px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .section-shapka .container .txt{
+        margin-left: 0;
+    }
+    .section-shapka .container .logo img{
+        margin-left: 0;
+        width: 29px;
+        height: 25px;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    .section-shapka .container .txt a{
+        font-size: 8px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .section-shapka .container .txt{
+        margin-left: 0;
+        
+        text-align: center;
+    }
+    .section-shapka .container .logo img{
+        margin-left: 0;
+        width: 29px;
+        height: 25px;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    .section-shapka{
+        margin-bottom: 0px;
+    }
+    .section-gos{
+        margin-bottom: 10px;
+    }
+    footer h3{
+        font-size: 8px;
+        margin: 8px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .section-news .container h2{
+        font-size: 14px;
+    }
+    .section-news .container p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .section-news .container .txt{
+        margin-bottom: 0;
+    }
+    .section-news .container .car {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .section-news .container .car .card{
+        width: 320px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .section-news .container .car .card h3{
+        margin: 10px;
+        font-size: 14px;
+    }
+    .section-news .container .car .card p{
+        margin: 10px;
+        font-size: 12px;
+    }
+    .section-news .container .car .card .line{
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .section-news {
+        margin-bottom: 10px;
+    }
+    .section-contact .container h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .section-contact .container h3{
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-contact .container .cont h4{
+        margin: 0;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .section-contact .container .cont p{
+        margin: 0;
+        font-size: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .section-contact{
+        margin-bottom: 10px;
+    }
+
+    .section-obr .container h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .section-obr .container h3{
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-obr .container .nametel h3 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .section-obr .container .nametel{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-obr .container .em h3{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .section-obr .container .nametel input{
+        width: 250px;
+        height: 30px;
+    }
+    
+    .section-obr .container p{
+        font-size: 10px;
+    }
+    .section-obr .container button {
+        font-size: 12px;
+        width: 130px;
+        height: 40px;
+        border-radius: 15px;
+    }
+    .section-obr{
+        margin-bottom: 10px;
+    }
+    .section-prav .container h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .section-prav .container .car h3{
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-prav .container .car p {
+        font-size: 10px;
+    }
+    .section-prav .container .but a{
+        font-size: 8px;
+    }
+    .section-prav{
+        margin-bottom: 10px;
+    }
+    .banner{
+        width: 90%;
+    }
+    .banner .text h5{
+        font-size: 8px;
+        margin-top: 5%;
+        text-align: center;
+
+    }
+    .banner .logo{
+        width: 15%;
+        height: 20%;
+    }
+    .banner .logo svg{
+        height: 45px;
+        width: 100%;
+        
+    }
+    .banner .mar svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner{
+        height: 50px;
+    }
+
+    .banner .mar marquee{
+        height: 50px !important;
+    }
+}
+
+
+
